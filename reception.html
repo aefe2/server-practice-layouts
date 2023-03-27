@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Учет пациентов</title>
+</head>
+<body>
+<div class="header">
+    <h1 class="header-title">Учет пациентов</h1>
+</div>
+<div class="main">
+    <div class="forms">
+        <div class="patient-record-form">
+            <h3>Записать пациента</h3>
+            <form>
+                <label for="patient-choose">Пациент</label>
+                <select id="patient-choose">
+                    <option value="1">Петров Петр Петрович</option>
+                </select>
+                <label for="record-date">Дата записи</label>
+                <input id="record-date" type="date">
+                <label for="record-time">Время записи</label>
+                <input id="record-time" type="time">
+                <label for="doctor-choose">Врач</label>
+                <select id="doctor-choose">
+                    <option value="1">Петров Петр Петрович</option>
+                </select>
+                <input type="submit" value="Записать">
+            </form>
+
+        </div>
+        <div class="add-patient-form">
+            <h3>Добавить пациента</h3>
+            <form>
+                <label for="patient-first-name">Имя</label>
+                <input id="patient-first-name" type="text">
+                <label for="patient-last-name">Фамилия</label>
+                <input id="patient-last-name" type="text">
+                <label for="patient-patronymic">Отчество</label>
+                <input id="patient-patronymic" type="text">
+                <label for="patient-birth-date">Дата рождения</label>
+                <input id="patient-birth-date" type="date">
+                <input type="submit" value="Добавить">
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
