@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Учет пациентов</title>
+</head>
+<body>
+<div class="header">
+    <h1 class="header-title">Учет пациентов</h1>
+</div>
+<div class="main">
+    <div class="nav">
+        <a href="#">Перейти к выборке</a>
+    </div>
+    <div class="add-doctor-form">
+        <h3>Добавить врача</h3>
+        <form>
+            <label for="doctor-last-name">Фамилия</label>
+            <input id="doctor-last-name" type="text">
+            <label for="doctor-first-name">Имя</label>
+            <input id="doctor-first-name" type="text">
+            <label for="doctor-patronymic">Отчество</label>
+            <input id="doctor-patronymic" type="text">
+            <label for="doctor-birth-date">Дата рождения</label>
+            <input id="doctor-birth-date" type="date">
+            <label for="doctor-position">Должность</label>
+            <input id="doctor-position" type="text">
+            <label for="doctor-specialization">Специализация</label>
+            <select id="doctor-specialization">
+                <option value="1">Хирург</option>
+                <option value="2">Терапевт</option>
+            </select>
+            <input type="submit" value="Добавить">
+        </form>
+    </div>
+    <div class="add-patient-form">
+        <h3>Добавить пациента</h3>
+        <form>
+            <label for="patient-first-name">Имя</label>
+            <input id="patient-first-name" type="text">
+            <label for="patient-last-name">Фамилия</label>
+            <input id="patient-last-name" type="text">
+            <label for="patient-patronymic">Отчество</label>
+            <input id="patient-patronymic" type="text">
+            <label for="patient-birth-date">Дата рождения</label>
+            <input id="patient-birth-date" type="date">
+            <input type="submit" value="Добавить">
+        </form>
+    </div>
+    <div class="patient-record-form">
+        <h3>Записать пациента</h3>
+        <form>
+            <label for="patient-choice">ФИО пациента</label>
+            <select id="patient-choice">
+                <option value="1">Иванов Иван Иванович</option>
+                <option value="2">Петров Петр Петрович</option>
+            </select>
+            <label for="record-date">Дата приема</label>
+            <input id="record-date" type="date">
+            <label for="record-time">Время приема</label>
+            <input id="record-time" type="time">
+            <input type="submit" value="Добавить">
+        </form>
+    </div>
+</div>
+</body>
+</html>

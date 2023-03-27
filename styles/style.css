@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url("/fonts/Montserrat-Regular.ttf") format('ttf');
+}
+
+h3 {
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 50px;
+    background-color: rgba(217, 217, 217, 100%);
+}
+
+.header-title {
+    font-weight: normal;
+    font-size: 27px;
+}
+
+.main {
+    width: 85vw;
+    margin: auto;
+}
+
+.nav {
+    margin: 40px 0 60px 0;
+    width: fit-content;
+    padding: 10px;
+    background-color: rgba(217, 217, 217, 20%);
+    border-radius: 5px;
+}
+
+.nav > a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.nav > a:hover {
+    color: rgba(0, 0, 255, 0.82);
+    border-bottom: 1px solid rgba(0, 0, 255, 0.82);
+}
+
+.add-doctor-form > h3 {
+    width: 400px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+
+.add-patient-form > h3 {
+    width: 400px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+
+.patient-record-form > h3 {
+    width: 400px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+
+.add-doctor-form > form {
+    display: flex;
+    flex-direction: column;
+}
+
